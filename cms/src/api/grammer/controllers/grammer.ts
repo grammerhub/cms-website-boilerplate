@@ -1,0 +1,7 @@
+/**
+ * grammer controller
+ */
+
+import { factories } from '@strapi/strapi'
+
+export default factories.createCoreController('api::grammer.grammer');
